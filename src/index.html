@@ -15,7 +15,8 @@
 
     <script src="systemjs.config.js"></script>
     <script>
-      System.import('main.js').catch(function(err){ console.error(err); });
+      /* Original value >  System.import('main.js') */
+      System.import('dist/main.js').catch(function(err){ console.error(err); });
     </script>
   </head>
 
